@@ -8,26 +8,26 @@
 
 // 23432 -> да
 
-  int Palindrome(int num)
-  {
-    int sum = 0;
-    int rest = 0;
-    while (num > 0)
-    {
-         rest = num % 10;
-         num = num / 10;
-         sum = sum * 10 + rest;
-    }
-    return sum;
-  }
+//   int Palindrome(int num)
+//   {
+//     int sum = 0;
+//     int rest = 0;
+//     while (num > 0)
+//     {
+//          rest = num % 10;
+//          num = num / 10;
+//          sum = sum * 10 + rest;
+//     }
+//     return sum;
+//   }
 
-Console.Write("Input one number: ");
-int number = Convert.ToInt32(Console.ReadLine());
-int result = Palindrome(number);
-if(number == result)
-Console.WriteLine(number +" "+ "YES is a palindrom!");
-else
-Console.WriteLine(number +" "+ "NO its not a palindrom!");
+// Console.Write("Input one number: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int result = Palindrome(number);
+// if(number == result)
+// Console.WriteLine(number +" "+ "YES is a palindrom!");
+// else
+// Console.WriteLine(number +" "+ "NO its not a palindrom!");
 
 
 // Задача 21
